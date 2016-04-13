@@ -39,7 +39,7 @@ The following **additional-additional** features are implemented if time permits
 
 Here's a walkthrough of implemented user stories:
 
-<!--<img src='https://github.com/venegu/tweety/raw/master/tweety.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />-->            
+<img src='https://github.com/Soother/Soothe/raw/master/soothe.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />        
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 

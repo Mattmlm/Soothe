@@ -13,7 +13,20 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    // MARK: - Key Retriever
+    func retrieveKeys(neededValue : String) -> String {
+        if let path = NSBundle.mainBundle().pathForResource("keys", ofType: "plist"), dict = NSDictionary(contentsOfFile: path) as? [String: AnyObject] {
+            if neededValue == "giphyKey" {
+                return (dict["giphyKey"] as? String)!
+            }
+            
+            if neededValue == "secret" {
+                return (dict["consumerSecret"] as? String)!
+            }
+        }
+        return "Provide a paramater!"
+    }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.

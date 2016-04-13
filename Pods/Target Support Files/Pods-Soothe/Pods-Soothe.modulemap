@@ -1,0 +1,6 @@
+framework module Pods_Soothe {
+  umbrella header "Pods-Soothe-umbrella.h"
+
+  export *
+  module * { export * }
+}

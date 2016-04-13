@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		284D98841CAC536E00FEA393 /* GiphyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D98831CAC536E00FEA393 /* GiphyCell.swift */; };
+		285BDAB31CAC60FF00D1845B /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285BDAB21CAC60FF00D1845B /* Gif.swift */; };
+		285BDAB71CAC643700D1845B /* GiphyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285BDAB61CAC643700D1845B /* GiphyClient.swift */; };
+		285BDAB91CAC66C900D1845B /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 285BDAB81CAC66C900D1845B /* keys.plist */; };
 		28702EE51CA4DA8B0007690F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28702EE41CA4DA8B0007690F /* AppDelegate.swift */; };
-		28702EE71CA4DA8B0007690F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28702EE61CA4DA8B0007690F /* ViewController.swift */; };
 		28702EEA1CA4DA8B0007690F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28702EE81CA4DA8B0007690F /* Main.storyboard */; };
 		28702EED1CA4DA8B0007690F /* Soothe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28702EEB1CA4DA8B0007690F /* Soothe.xcdatamodeld */; };
 		28702EEF1CA4DA8B0007690F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28702EEE1CA4DA8B0007690F /* Assets.xcassets */; };
 		28702EF21CA4DA8B0007690F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28702EF01CA4DA8B0007690F /* LaunchScreen.storyboard */; };
 		28702EFD1CA4DA8B0007690F /* SootheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28702EFC1CA4DA8B0007690F /* SootheTests.swift */; };
 		28702F081CA4DA8B0007690F /* SootheUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28702F071CA4DA8B0007690F /* SootheUITests.swift */; };
+		28702F161CA58EF50007690F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28702F151CA58EF50007690F /* FeedViewController.swift */; };
+		A208E00A4E86BAAA7EDFD59C /* Pods_Soothe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E20E179E0AB366E6AC24A85 /* Pods_Soothe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		284D98831CAC536E00FEA393 /* GiphyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiphyCell.swift; sourceTree = "<group>"; };
+		285BDAB21CAC60FF00D1845B /* Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
+		285BDAB61CAC643700D1845B /* GiphyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiphyClient.swift; sourceTree = "<group>"; };
+		285BDAB81CAC66C900D1845B /* keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
 		28702EE11CA4DA8B0007690F /* Soothe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soothe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28702EE41CA4DA8B0007690F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28702EE61CA4DA8B0007690F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28702EE91CA4DA8B0007690F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28702EEC1CA4DA8B0007690F /* Soothe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Soothe.xcdatamodel; sourceTree = "<group>"; };
 		28702EEE1CA4DA8B0007690F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		28702F031CA4DA8B0007690F /* SootheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SootheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28702F071CA4DA8B0007690F /* SootheUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SootheUITests.swift; sourceTree = "<group>"; };
 		28702F091CA4DA8B0007690F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28702F151CA58EF50007690F /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		74BF6A487FDFD942A3272B25 /* Pods-Soothe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soothe.release.xcconfig"; path = "Pods/Target Support Files/Pods-Soothe/Pods-Soothe.release.xcconfig"; sourceTree = "<group>"; };
+		7E20E179E0AB366E6AC24A85 /* Pods_Soothe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soothe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B263B61E3E28FB03A68ED508 /* Pods-Soothe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soothe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Soothe/Pods-Soothe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A208E00A4E86BAAA7EDFD59C /* Pods_Soothe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +89,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		284D987D1CAC523100FEA393 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				28702F151CA58EF50007690F /* FeedViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		284D987F1CAC524C00FEA393 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				284D98831CAC536E00FEA393 /* GiphyCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		284D98801CAC528800FEA393 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				285BDAB21CAC60FF00D1845B /* Gif.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		284D98811CAC529F00FEA393 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				285BDAB61CAC643700D1845B /* GiphyClient.swift */,
+			);
+			name = APIs;
+			sourceTree = "<group>";
+		};
+		284D98821CAC52D800FEA393 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28702EF31CA4DA8B0007690F /* Info.plist */,
+				285BDAB81CAC66C900D1845B /* keys.plist */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
 		28702ED81CA4DA8B0007690F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +137,8 @@
 				28702EFB1CA4DA8B0007690F /* SootheTests */,
 				28702F061CA4DA8B0007690F /* SootheUITests */,
 				28702EE21CA4DA8B0007690F /* Products */,
+				B8E684866418972F22C95462 /* Pods */,
+				FAA67456A8D3C4AE105CA98D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +155,15 @@
 		28702EE31CA4DA8B0007690F /* Soothe */ = {
 			isa = PBXGroup;
 			children = (
+				284D98821CAC52D800FEA393 /* Support Files */,
+				284D98811CAC529F00FEA393 /* APIs */,
+				284D98801CAC528800FEA393 /* Models */,
+				284D987F1CAC524C00FEA393 /* Views */,
+				284D987D1CAC523100FEA393 /* View Controllers */,
 				28702EE41CA4DA8B0007690F /* AppDelegate.swift */,
-				28702EE61CA4DA8B0007690F /* ViewController.swift */,
 				28702EE81CA4DA8B0007690F /* Main.storyboard */,
 				28702EEE1CA4DA8B0007690F /* Assets.xcassets */,
 				28702EF01CA4DA8B0007690F /* LaunchScreen.storyboard */,
-				28702EF31CA4DA8B0007690F /* Info.plist */,
 				28702EEB1CA4DA8B0007690F /* Soothe.xcdatamodeld */,
 			);
 			path = Soothe;
@@ -128,6 +187,23 @@
 			path = SootheUITests;
 			sourceTree = "<group>";
 		};
+		B8E684866418972F22C95462 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B263B61E3E28FB03A68ED508 /* Pods-Soothe.debug.xcconfig */,
+				74BF6A487FDFD942A3272B25 /* Pods-Soothe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAA67456A8D3C4AE105CA98D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E20E179E0AB366E6AC24A85 /* Pods_Soothe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28702F0C1CA4DA8B0007690F /* Build configuration list for PBXNativeTarget "Soothe" */;
 			buildPhases = (
+				449353249CC1CB5A8014F724 /* Check Pods Manifest.lock */,
 				28702EDD1CA4DA8B0007690F /* Sources */,
 				28702EDE1CA4DA8B0007690F /* Frameworks */,
 				28702EDF1CA4DA8B0007690F /* Resources */,
+				FC607642C38AD9912D1BC067 /* Embed Pods Frameworks */,
+				6DC8C31D6B76D881461E2CC2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				285BDAB91CAC66C900D1845B /* keys.plist in Resources */,
 				28702EF21CA4DA8B0007690F /* LaunchScreen.storyboard in Resources */,
 				28702EEF1CA4DA8B0007690F /* Assets.xcassets in Resources */,
 				28702EEA1CA4DA8B0007690F /* Main.storyboard in Resources */,
@@ -254,14 +334,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		449353249CC1CB5A8014F724 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6DC8C31D6B76D881461E2CC2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Soothe/Pods-Soothe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC607642C38AD9912D1BC067 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Soothe/Pods-Soothe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		28702EDD1CA4DA8B0007690F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				28702EED1CA4DA8B0007690F /* Soothe.xcdatamodeld in Sources */,
-				28702EE71CA4DA8B0007690F /* ViewController.swift in Sources */,
+				28702F161CA58EF50007690F /* FeedViewController.swift in Sources */,
 				28702EE51CA4DA8B0007690F /* AppDelegate.swift in Sources */,
+				284D98841CAC536E00FEA393 /* GiphyCell.swift in Sources */,
+				285BDAB71CAC643700D1845B /* GiphyClient.swift in Sources */,
+				285BDAB31CAC60FF00D1845B /* Gif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +530,7 @@
 		};
 		28702F0D1CA4DA8B0007690F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B263B61E3E28FB03A68ED508 /* Pods-Soothe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Soothe/Info.plist;
@@ -410,6 +542,7 @@
 		};
 		28702F0E1CA4DA8B0007690F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74BF6A487FDFD942A3272B25 /* Pods-Soothe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Soothe/Info.plist;
@@ -486,6 +619,7 @@
 				28702F0E1CA4DA8B0007690F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28702F0F1CA4DA8B0007690F /* Build configuration list for PBXNativeTarget "SootheTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +628,7 @@
 				28702F111CA4DA8B0007690F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28702F121CA4DA8B0007690F /* Build configuration list for PBXNativeTarget "SootheUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +637,7 @@
 				28702F141CA4DA8B0007690F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

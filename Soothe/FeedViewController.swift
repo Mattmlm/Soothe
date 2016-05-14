@@ -35,16 +35,16 @@ class FeedViewController: UIViewController {
     
     // MARK: - Network Calls
     func giphyCall() {
-        GiphyClient().getTrendingWithCompletion { (gifs, error) -> () in
-            
-            if error == nil {
-                self.gifs = gifs
-                self.tableView.reloadData()
-            } else {
-                print("\(error)")
-            }
-            
-        }
+//        GiphyClient().getTrendingWithCompletion { (gifs, error) -> () in
+//            
+//            if error == nil {
+//                self.gifs = gifs
+//                self.tableView.reloadData()
+//            } else {
+//                print("\(error)")
+//            }
+//            
+//        }
     }
 
     /*
@@ -63,16 +63,31 @@ class FeedViewController: UIViewController {
 
 extension FeedViewController: UITableViewDelegate, UITableViewDataSource {
     
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 2;
+    }
+    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-        return gifs?.count ?? 0
-        
+        if section == 0 {
+            return 5
+        } else {
+            return 10;
+        }
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("GiphyCell") as! GiphyCell
-
-        cell.giphyImageView.animateWithImageData(NSData(contentsOfURL: NSURL(string: gifs![indexPath.row].gifUrl!)!)!)
+        var cell: UITableViewCell
+        if (indexPath.section == 0) {
+            let gifCell = tableView.dequeueReusableCellWithIdentifier("GiphyCell") as! GiphyCell
+            gifCell.backgroundColor = UIColor.blueColor();
+//            gifCell.giphyImageView.animateWithImageData(NSData(contentsOfURL: NSURL(string: gifs![indexPath.row].gifUrl!)!)!)
+            cell = gifCell;
+        } else {
+            let sampleCell = tableView.dequeueReusableCellWithIdentifier(SampleCell.reuseIdentifier(), forIndexPath: indexPath);
+            
+            cell = sampleCell
+        }
 
         return cell
     }

@@ -16,15 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     // MARK: - Key Retriever
     func retrieveKeys(neededValue : String) -> String {
-        if let path = NSBundle.mainBundle().pathForResource("keys", ofType: "plist"), dict = NSDictionary(contentsOfFile: path) as? [String: AnyObject] {
-            if neededValue == "giphyKey" {
-                return (dict["giphyKey"] as? String)!
-            }
-            
-            if neededValue == "secret" {
-                return (dict["consumerSecret"] as? String)!
-            }
-        }
+//        if let path = NSBundle.mainBundle().pathForResource("keys", ofType: "plist"), dict = NSDictionary(contentsOfFile: path) as? [String: AnyObject] {
+//            if neededValue == "giphyKey" {
+//                return (dict["giphyKey"] as? String)!
+//            }
+//            
+//            if neededValue == "secret" {
+//                return (dict["consumerSecret"] as? String)!
+//            }
+//        }
         return "Provide a paramater!"
     }
 
